@@ -1,0 +1,64 @@
+/*---------------------------------------------------------------------
+| FILE MANAGEMENT
+|
+|   The file names should be named in singular.
+|   File names with several words should be separated by a "-".
+|   File names should are lowercase.
+| 
+| CI-GUIDELINE.CSS
+|   This file contains basic layout and styling guidelines to define 
+|   a consistent styling concept.
+|
+---------------------------------------------------------------------*/
+
+
+
+:root {
+    --color-black: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 30px; /*defines the base font size for the whole webpage*/
+}
+
+body {
+    font-size: 1rem; /*Scale fontsize for whole webpage, based on html styleline*/
+}
+
+
+
+/*-----------------------------------------------------
+| Semantic HTML tags
+|
+|   <main>
+|   <section>
+|   <header>
+|   <nav>
+|   <footer>
+| 
+------------------------------------------------------*/
+
+main {
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+section {
+    padding: 1em;
+}
+
+header {
+    text-align: center
+}
+
+nav {
+    text-align: right;
+    padding: 1em;
+}
