@@ -12,18 +12,106 @@
 
     <!--Stylesheets-->
     <link rel="stylesheet" href="css/ci-guideline.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/grid.css">
 
     <!--JavaScript-->
 </head>
 <body>
-    <header>
+    <nav>
+        <img src="img/logo-unitas.png" alt="Logo von Unitas Media">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Über uns</a></li>
+            <li><a href="#">Leistungen</a></li>
+            <li><a href="#">Projekte</a></li>
+            <li><a href="html/contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <header id="header-for-landingpage">
         <h1>Unitas.media</h1>
-    </header>
-    <main>
         <p>wir drucken ihre Ideen</p>
+        <input type="submit" value="Unsere Leistungen">
+    </header>
+
+
+
+
+    <main>
+
+
+        <section class="grid-container">
+            <div class="grid-item">
+                <h3>Druckservice</h3>
+            </div>
+            <div class="grid-item">
+                <h3>Videografie</h3>
+            </div>
+            <div class="grid-item">
+                <h3>Grafikdesign</h3>
+            </div>
+            <div class="grid-item">
+                <h3>Webdevelopment</h3>
+            </div>
+
+        </section>
+
+        <h2>Das Team.</h2>
+        <section class="grid-container">
+            
+            <div class="grid-item">
+                <h3>Max</h3>
+            </div>
+            <div class="grid-item">
+                <h3>Paul</h3>
+            </div>
+            <div class="grid-item">
+                <h3>Alex</h3>
+            </div>
+            <div class="grid-item">
+                <h3>Lukas</h3>
+            </div>
+
+        </section>
+
+        <h2>Kontakt.</h2>
+        <section class="grid-container">
+            
+            <div class="grid-item">
+                <h3>Standort</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d432.26841770304264!2d15.346594335641981!3d48.22070418895356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sat!4v1719840341071!5m2!1sen!2sat"
+                    id="googlemaps" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="grid-item">
+                <h3>Anschrift</h3>
+                <p>
+                    Werbemanufraktur<br>
+                    Jakobstraße 8 <br>
+                    3390 Melk <br>
+                    Niederösterreich <br>
+                </p>
+            </div>
+
+            <div class="grid-item">
+                <h3>Öffnungszeiten</h3>
+                <p>"Dynamisches JS" gerade offen / nicht offen</p>
+                <p>Mo - Fr: 8:00 - 15:00</p>
+            </div>
+            <div class="grid-item">
+                <h3>Kontakt</h3>
+                <p>tel</p>
+                <p>Werbemanufraktur.com</p>
+                <input type="submit" value="email">
+            </div>
+
+        </section>
+        
+        
     </main>
-    <footer>
-        <p>&copy; 2024 Meine Website</p>
-    </footer>
 </body>
 </html>
