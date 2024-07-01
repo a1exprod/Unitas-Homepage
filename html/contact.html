@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Favicon and tab name for Webpage-->
+    <title>Kontakt mit Unitas.Media</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="../css/ci-guideline.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/grid.css">
+
+    <link rel="stylesheet" href="../css/contact.css">
+
+    <!--JavaScript-->
+</head>
+<body>
+    <nav>
+        <img src="../img/logo-unitas.png" alt="Logo von Unitas Media">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Über uns</a></li>
+            <li><a href="#">Leistungen</a></li>
+            <li><a href="#">Projekte</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Unitas.media</h1>
+        <p>wir drucken ihre Ideen</p>
+        
+    </header>
+
+
+
+
+    <section>
+        <div class="contact-form-container">
+            <form action="../php/contact.php" method="post">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Ihr Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Ihre Email Adresse" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder="Betreff">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="10" required placeholder="Ihre Nachricht"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Senden</button>
+                </div>
+            </form>
+        </div>
+    </section>

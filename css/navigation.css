@@ -1,0 +1,50 @@
+/*---------------------------------------------------------------------
+| FILE MANAGEMENT
+|
+|   The file names should be named in singular.
+|   File names with several words should be separated by a "-".
+|   File names should are lowercase.
+| 
+| navigation.CSS
+|   This file contains style rules for:
+|   .) Navigation (inside header)
+|   .) All types of Links (<a>)
+|   .) all types of buttons (<button>, <input>)
+|
+---------------------------------------------------------------------*/
+
+/*-----------------------------------------------------
+| GLOBAL NAVIGATION
+------------------------------------------------------*/
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 0.8em;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+
+nav ul li {
+    margin-right: 1em; 
+    
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Last element will not serve space to its right */
+}
+
+/*-----------------------------------------------------
+| BUTTONS
+------------------------------------------------------*/
+
+input[type=submit] {
+    margin: 2em;
+    padding: 1em;
+    font-size: 0.7em;
+}
