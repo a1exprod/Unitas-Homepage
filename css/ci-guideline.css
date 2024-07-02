@@ -24,17 +24,18 @@
 }
 
 html {
-    font-size: 30px; /*defines the base font size for the whole webpage*/
+    font-size: 25px; /*defines the base font size for the whole webpage*/
 }
 
 body {
     font-size: 1rem; /*Scale fontsize for whole webpage, based on html styleline*/
+    font-family: Helvetica;
 }
 
 
 
 /*-----------------------------------------------------
-| Semantic HTML tags
+| SEMANTIC HTML TAGS
 |
 |   <main>
 |   <section>
@@ -52,13 +53,103 @@ main {
 
 section {
     padding: 1em;
+    min-height: 100vh;
 }
 
 header {
-    text-align: center
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    /*background-image: url('../img/background-unitas.png');
+    background-repeat: no-repeat; 
+    background-size: cover; */
+}
+header#header-for-landingpage {
+    height: 95vh;
 }
 
 nav {
     text-align: right;
     padding: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    margin-top: 33vh;
+    background-color: #E6E6E6;
+}
+
+aside {
+    height: 75vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*-----------------------------------------------------
+| TEXT AND TYPOGRAPHY 
+|   <h>
+|   <p>
+|   <q>
+------------------------------------------------------*/
+
+h1 {
+    font-family: Helvetica;
+    font-size: 3em;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+
+
+/*-----------------------------------------------------
+| LISTS, TABLES
+------------------------------------------------------*/
+
+ul{
+    list-style-type: none;
+    font-size: 0.7em;
+}
+
+
+
+/*-----------------------------------------------------
+| IMAGES, VIDEO, SOURCES, IFRAMES
+------------------------------------------------------*/
+
+iframe#googlemaps {
+    height: 50vh;
+    width: 25vw;
+    border:0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 2px;
+}
+
+.backgroundimg-services {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: white;
+}
+
+.print {
+    background-image: url('../img/background-print.png');
+}
+.video {
+    background-image: url('../img/background-video.png');
+}
+.graphicdesign {
+    background-image: url('../img/background-graphicdesign.png');
+}
+.web {
+    background-image: url('../img/background-coding.png');
 }
