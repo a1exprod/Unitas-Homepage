@@ -135,10 +135,9 @@ iframe#googlemaps {
     border-radius: 2px;
 }
 
-.backgroundimg-services {
+.backgroundimg {
     background-repeat: no-repeat; 
     background-size: cover;
-    color: white;
 }
 
 .print {
@@ -152,4 +151,8 @@ iframe#googlemaps {
 }
 .web {
     background-image: url('../img/background-coding.png');
+}
+
+.person {
+    background-image: url('../img/person.jpg');
 }
